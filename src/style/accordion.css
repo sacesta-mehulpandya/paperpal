@@ -1,0 +1,28 @@
+/* .acco-bg{
+    background-color: rgb(237, 243, 255);
+    
+} */
+
+
+.accordion__button{
+    padding: 14px 0  !important;
+    display: flex !important;
+    justify-content: space-between;
+    background-color: rgb(237, 243, 255) !important;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.accordion__heading{
+    background-color: rgb(237, 243, 255);
+}
+.accordion{
+   border: none !important;
+}
+.accordion-ul{
+    width: 70% !important;
+}
+.accordion__button:before{
+    flex-shrink: 0 !important;
+}

@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width: 768px){
+    .slick-prev {
+        display: none !important;
+    }
+    .slick-dots li button:before{
+        display: none;
+    }
+}

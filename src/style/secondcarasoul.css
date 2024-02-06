@@ -1,0 +1,36 @@
+
+
+.scroll-container {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+} 
+ 
+
+
+.company-list {
+  display: flex; /* Changed to flex to better manage items */
+  animation: scroll linear infinite; /* Adjust time as needed */
+} 
+
+
+.company-list:hover {
+  animation: none; /* Adjust time as needed */
+} 
+
+
+.company {
+  flex: 0 0 auto; /* Ensures that items don't stretch or shrink */
+  margin-right: 20px;
+  padding: 10px;
+  
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

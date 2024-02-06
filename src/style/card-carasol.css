@@ -1,0 +1,30 @@
+.text-blue{
+    color: #051E57;
+}
+.bg-yellow{
+    background: linear-gradient(90deg, rgba(255, 203, 0, 0.37) 0%, rgba(255, 203, 0, 0.47) 53%, rgba(255, 203, 0, 0) 100%) !important;
+}
+
+.scroll-container {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+}
+.company-list {
+  animation: scroll linear infinite; /* Adjust time as needed */
+}
+.company {
+  flex: 0 0 auto; /* Ensures that items don't stretch or shrink */
+  margin-right: 20px;
+  padding: 10px;
+  
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

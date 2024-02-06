@@ -1,33 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: balance;
+    }
 }
+
+/* common css  */
+
+.IBM-Plex-Sans {
+  font-family: "IBM Plex Sans", sans-serif;
+}  
+
+.heading-IBM-Plex-Sans { 
+  font-family: 'IBM Plex Serif', serif;
+}
+
+
+ /*Navigation CSS*/
+.navlist-color{
+    color: #5D6A81;
+}
+.btn-bg{
+    background-color: #0062FF !important;
+}
+
+/*common CSS*/
+.background{
+    background: linear-gradient(129deg, rgb(0, 47, 162) 27.55%, rgb(242, 246, 255) 113.15%);
+}
+/* .blog-card{
+    width: calc((100% -10px- 4px)/3);
+} */
+.gray-txt{
+    color:rgb(197, 197, 197)
+}
+footer,.bg-navy{
+    background-color: #051E57 !important;
+}
+#headhone{
+    color: white !important;
+}
+.bg-blue-w{
+    background-image: linear-gradient(to left, rgb(0, 44, 121), rgb(0, 84, 219)) !important;
+}
+.dark-blue-hover:hover{
+    background-color: #051E57;
+    color: white;
+}
+.btn-clr {
+    color: rgb(94, 150, 239) !important;
+}
+
+/*carsolCSS*/
+.bg-carasol{
+    background-image: linear-gradient(to left, rgb(0, 44, 121), rgb(0, 84, 219));
+}
+
+.bg-carasol{
+    background-image: linear-gradient(to left, rgb(0, 44, 121), rgb(0, 84, 219));
+}
+
+
+
+.navlist-color{
+    color: #5D6A81;
+}
+.btn-bg{
+    background-color: #0062FF !important;
+}
+
+.background{
+    background: linear-gradient(129deg, rgb(0, 47, 162) 27.55%, rgb(242, 246, 255) 113.15%);
+}
+/* .blog-card{
+    width: calc((100% -10px- 4px)/3);
+} */
+footer,.bg-navy{
+    background-color: #051E57;
+}
+#headhone{
+    color: white !important;
+}
+.bg-blue-w{
+    background-image: linear-gradient(to left, rgb(0, 44, 121), rgb(0, 84, 219)) !important;
+}
+.dark-blue-hover:hover{
+    background-color: #051E57;
+    color: white;
+
+
+}
+.btn-clr{
+    color: rgb(94, 150, 239)!important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px !important;
+    line-height: 20px;
+    position: absolute;
+    top: -57px !important;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-next {
+    right: 80px !important;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 25% !important;
+    display: block;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    cursor: pointer;
+    color: white !important;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-next:before {
+    content: '' !important;
+    color: #ffffff !important;
+}
+
+
+.slick-prev:before {
+    content: '' !important;
+    color: #ffffff !important;
+}
+
+
+.slick-prev {
+    left: 100px !important;
+}
+
+.slick-prev {
+    z-index: -1;
+    right: 50px !important;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 25% !important;
+    display: block;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    cursor: pointer;
+    color: white !important;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+

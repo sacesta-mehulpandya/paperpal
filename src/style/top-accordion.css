@@ -1,0 +1,25 @@
+.top-accordion .accordion__button:before{
+    display: none !important;
+}
+.top-accordion .accordion__button,
+.top-accordion .accordion__heading{
+    background-color:transparent !important ;
+}
+.top-accordion .accordion__button {
+    margin-bottom: 10px;
+    padding-left: 0 !important;
+
+    flex-direction: row !important;
+}
+.accordion-main{
+    transition: top 1s ease 0s;
+}
+.top-accordion .accordion__panel{
+    padding: 0px !important;
+
+
+}
+
+body{
+    font-family: sans-serif;
+}
